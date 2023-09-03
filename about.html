@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Outfit:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ALEX</title>
+  <style>
+    .skillLevel{
+		transition: 0.5s all ease-in-out;
+	  }
+
+	  .skillLevel:hover{
+		transition: 0.5s all ease-in-out;
+		transform: scale(1.075);
+	  }
+
+
+    #about {
+        display: flex;
+      }
+
+      .image-container img {
+        height: 350px;
+        width: auto;
+        margin-right: 20px;
+        border: lawngreen double 10px;
+        transition: 0.5s ease-out;
+      }
+
+      .image-container img:hover{
+        transform: scale(.93);
+      }
+  
+      .text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+
+      @media (max-width: 829px) {
+        #about{
+          display: block;
+        }
+
+        .image-container img{
+          height: 150px;
+        }
+
+        .text-container p{
+          width: 200px;
+        }
+
+        #SL{
+          width: 0.1px;
+        }
+
+      }
+
+
+
+  </style>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none; color: #fff;">ALEX</a></h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <section id="about">
+
+    <div class="image-container">
+    <img src="me.jpg" alt="Me :D">
+    </div>
+
+    <div class="text-container">
+      <h2>About Me</h2>
+
+    <p>
+      My name is <span>Alexandra Agboola</span>, but you can call me <span>Alex</span>. I'm a 12-year-old full-stack developer passionate about web
+      development. I specialize in front-end work and have experience with HTML, CSS, JavaScript, Go, Swift, and PHP. Although
+      my skills may not be the best right now, I'm dedicated to improving every day.
+    </p>
+
+    <p>My hobbies (other than coding) are playing soccer, eating food, and playing video games. I also run a YouTube channel called "Alex The Dev" where I share my coding journey and
+      tutorials to help others learn programming.</p>
+    </div>
+    </section>
+
+  <h2 style="margin-left: 40px;">Skill Levels</h2>
+
+  <section id="SL">
+
+    <div class="skillLevel">
+<center>
+  <h3 style="margin-bottom: 10px;">HTML + CSS</h3>
+</center>
+
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+  </div>
+
+  <div class="skillLevel">
+    <center>
+      <h3 style="margin-bottom: 10px;">JS</h3>
+    </center>
+    
+        <div class="progress-bar">
+            <div class="progress" style="width: 210px;"></div>
+        </div>
+      </div>
+
+      <div class="skillLevel">
+        <center>
+          <h3 style="margin-bottom: 10px;">React</h3>
+        </center>
+        
+            <div class="progress-bar">
+                <div class="progress" style="width: 30px;"></div>
+            </div>
+          </div>
+
+          <div class="skillLevel">
+            <center>
+              <h3 style="margin-bottom: 10px;">Go</h3>
+            </center>
+            
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80px;"></div>
+                </div>
+              </div>
+
+              <div class="skillLevel">
+                <center>
+                  <h3 style="margin-bottom: 10px;">Swift</h3>
+                </center>
+                
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70px;"></div>
+                    </div>
+                  </div>
+
+                  <div class="skillLevel">
+                    <center>
+                      <h3 style="margin-bottom: 10px;">PHP</h3>
+                    </center>
+                    
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 130px;"></div>
+                        </div>
+                      </div>
+
+
+                      <div class="skillLevel">
+                        <center>
+                          <h3 style="margin-bottom: 10px;">C#</h3>
+                        </center>
+                        
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50px;"></div>
+                            </div>
+                          </div>
+        
+                          <div class="skillLevel">
+                            <center>
+                              <h3 style="margin-bottom: 10px;">Java</h3>
+                            </center>
+                            
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 120px;"></div>
+                                </div>
+                              </div>
+        
+</section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

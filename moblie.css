@@ -1,0 +1,12 @@
+
+/* For Phones and Tablets */
+
+  @media only screen and (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Set a single column */
+    }
+
+    .project{
+        padding: 100px 60px;
+    }
+  }

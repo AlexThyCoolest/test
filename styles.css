@@ -1,0 +1,80 @@
+
+/* Grid */
+
+.project-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /* Set a single column */
+	gap: 0px; /* Add spacing between grid items */
+  }
+
+  .project {
+	background-color: #f9f9f9;
+	padding: 130px;
+	margin: 0px; /* Add space between the divs */
+	border: 1px solid #ddd;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Set a single column */
+    }
+
+    .project{
+        padding: 100px 60px;
+    }
+  }
+
+  #one{
+	background: url("1.png");
+	background-size: cover;
+  }
+
+  #two{
+	background: url("2.png");
+	background-size: cover;
+  }
+
+  #three{
+	background: url("3.png");
+	background-size: cover;
+  }
+
+  #four{
+	background: url("4.png");
+	background-size: cover;
+  }
+
+  #five{
+	background: url("5.png");
+	background-size: cover;
+  }
+
+  #six{
+	background: url("6.png");
+	background-size: cover;
+  }
+
+  #seven{
+	background: url("7.png");
+	background-size: cover;
+  }
+
+  #eight{
+	background: url("8.png");
+	background-size: cover;
+  }
+
+  #nine{
+	background: url("9.png");
+	background-size: cover;
+  }
+
+  #ten{
+	background: url("10.png");
+	background-size: cover;
+  }
+
+  #eleven{
+    background: url("11.png");
+    background-size: cover;
+  }
